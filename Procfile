@@ -1,1 +1,1 @@
-web: gunicorn adventureblog1.wsgi --log-file -
+web: gunicorn adventureblog1:app --log-file -
