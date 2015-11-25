@@ -1,0 +1,1 @@
+web: gunicorn adventureblog1.wsgi --log-file -
