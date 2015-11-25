@@ -1,1 +1,1 @@
-web: gunicorn adventureblog1:app --log-file -
+web: python adventureblog/manage.py runserver "0.0.0.0:$PORT"
